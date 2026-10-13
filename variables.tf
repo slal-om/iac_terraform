@@ -3,6 +3,11 @@ variable "project_id" {
   description = "The ID of the Google Cloud project where resources will be created."
 }
 
+variable "project_number" {
+  type        = number
+  description = "The number of the Google Cloud project where resources will be created."
+}
+
 variable "site_id" {
   type        = string
   description = "The unique ID for the Firebase Hosting site."
